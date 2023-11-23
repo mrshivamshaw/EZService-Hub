@@ -1,0 +1,85 @@
+{
+    "reviews": [
+      {
+        "id": 1,
+        "serviceProviderId": 1,
+        "userId": 2,
+        "userName": "Alice Johnson",
+        "rating": 4,
+        "comment": "John provided an outstanding cleaning service! He arrived promptly, was very courteous, and meticulously cleaned every corner of my house. I was impressed by his professionalism and attention to detail. I highly recommend him for anyone seeking top-notch cleaning services."
+      },
+      {
+        "id": 2,
+        "serviceProviderId": 2,
+        "userId": 3,
+        "userName": "Benjamin Rodriguez",
+        "rating": 4.5,
+        "comment": "I had an urgent plumbing issue, and Alice's Plumbing Solutions came to the rescue! The plumber, Alex, was not only skilled but also extremely friendly. He assessed the problem swiftly and fixed it in no time. I'm thoroughly satisfied with their service and will definitely reach out to them for any future plumbing needs."
+      },
+      {
+        "id": 3,
+        "serviceProviderId": 3,
+        "userId": 4,
+        "userName": "Carla Smith",
+        "rating": 4.2,
+        "comment": "I recently hired Alex's Electrical Services for some electrical repairs. The team was professional and exhibited great expertise in handling the job. The work was completed on time and with precision. However, a bit more clarity on pricing beforehand would have been appreciated. Overall, a good experience!"
+      },
+      {
+        "id": 4,
+        "serviceProviderId": 4,
+        "userId": 5,
+        "userName": "David Thompson",
+        "rating": 4.7,
+        "comment": "Impressive carpentry work by Steven! He crafted custom furniture for my home office, and the attention to detail was exceptional. The quality of the work surpassed my expectations. Steven's professionalism and craftsmanship deserve high praise. I'll definitely recommend his services to friends and family."
+      },
+      {
+        "id": 5,
+        "serviceProviderId": 5,
+        "userId": 6,
+        "userName": "Emily White",
+        "rating": 4.3,
+        "comment": "I had a hassle-free moving experience with Swift Moves. The team arrived on time, handled my belongings with care, and efficiently managed the entire move. Despite a minor delay due to traffic, they made up for it with their professionalism. Overall, a satisfying experience."
+      },
+      {
+        "id": 6,
+        "serviceProviderId": 6,
+        "userId": 7,
+        "userName": "Frank Davis",
+        "rating": 4.8,
+        "comment": "Fantastic pet care service! My dog, Max, is always excited about their walks and grooming sessions. The team at PetCare Pros is not just professional but also shows genuine care for animals. Max's well-being is in good hands, and I couldn't be happier!"
+      },
+      {
+        "id": 7,
+        "serviceProviderId": 7,
+        "userId": 8,
+        "userName": "Grace Wilson",
+        "rating": 4.6,
+        "comment": "Swift IT Solutions provided quick and efficient tech support for my computer issues. The technician, Mark, was knowledgeable and fixed the problem in no time. However, a bit more clarity on the pricing structure would be beneficial. Nonetheless, I'm satisfied with the service provided."
+      },
+      {
+        "id": 8,
+        "serviceProviderId": 8,
+        "userId": 9,
+        "userName": "Henry Martinez",
+        "rating": 4.9,
+        "comment": "Outstanding tutoring services! The tutor, Olivia, has a great way of explaining complex concepts. Her teaching methods significantly improved my understanding and grades. The personalized approach to learning made a notable difference. Highly recommended!"
+      },
+      {
+        "id": 9,
+        "serviceProviderId": 9,
+        "userId": 10,
+        "userName": "Irene Clark",
+        "rating": 4.4,
+        "comment": "I had a good experience with Noah's Fitness Training. The sessions were motivating and helped me stay committed to my fitness goals. A bit more variety in workout routines would have been beneficial. Overall, a satisfactory fitness training program."
+      },
+      {
+        "id": 10,
+        "serviceProviderId": 10,
+        "userId": 1,
+        "userName": "John Wilson",
+        "rating": 4.5,
+        "comment": "Lily's Cooking Classes were not only educational but also enjoyable! The instructor, Lily, has a passion for teaching and made the classes interactive. I learned a variety of new recipes and cooking techniques. A highly enriching experience!"
+      }
+    ]
+  }
+  
