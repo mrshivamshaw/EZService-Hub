@@ -23,6 +23,7 @@ import painting from '../../assets/homeCard/Homepage_Painting.png'
 import trending from '../../assets/homeCard/Shot_15_Plumbing_0142_12__2_.png'
 import HomeCardBottom from './HomeCardBottom';
 import ServiceProvider from '../ServiceProvider/ServiceProvider';
+import Review from '../Review/Review';
 
 const Home = () => {
     const [category,setCategory] = useState("Assembly");
@@ -134,6 +135,7 @@ const Home = () => {
             </div>
             <HomeCardBottom/>
             <ServiceProvider/>
+            <Review/>
         </div>
     </div>
   )
