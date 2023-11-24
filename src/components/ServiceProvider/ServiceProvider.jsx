@@ -6,12 +6,12 @@ const ServiceProvider = () => {
   return (
     <div className="max-w-screen mt-12 h-auto mx-auto relative flex flex-col justify-center items-center gap-10 ">
     <div className="absolute right-0 -top-40"><img src={midShape} alt="mid shape" /></div>
-      <h1 className="text-4xl font-bold w-[80%] text-start pl-9" style={{WebkitTextStroke:".3px #0d7a5f"}}>Service providers</h1>
+      <h1 className="text-4xl font-bold w-[80%] text-start pl-12 text-[#386842]" style={{WebkitTextStroke:".3px #0d7a5f"}}>Service providers</h1>
       <div className="flex flex-wrap justify-center items-center  gap-x-12 gap-y-8 w-[80%] h-auto mx-auto">
         {serviceProviders.map((provider) => (
-          <div key={provider.id} className="w-[260px] flex justify-center items-start gap-7 flex-col h-[300px] rounded-b-xl bg-[#eaf9ff58] shadow-md cursor-pointer">
-            <div className="w-full h-[50%]">
-              <img src={provider.img} alt="jh" className="w-[258px] h-[163px] " />
+          <div key={provider.id} className="w-[330px] flex justify-center items-start gap-7 flex-col h-auto rounded-b-xl bg-[#eaf9ff58] shadow-md cursor-pointer">
+            <div className="w-full h-auto">
+              <img src={provider.img} alt="jh" className="w-[330px] h-[200px] " />
             </div>
             <div className="px-3">
                 <h1 className="font-bold" style={{WebkitTextStroke:".3px #0d7a5f"}}>{provider.name}</h1>
