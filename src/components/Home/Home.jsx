@@ -25,6 +25,7 @@ import HomeCardBottom from './HomeCardBottom';
 import ServiceProvider from '../ServiceProvider/ServiceProvider';
 import Review from '../Review/Review';
 import HomeSatisfaction from './HomeSatisfaction';
+import GetHelp from '../GetHelp/GetHelp';
 
 const Home = () => {
     const [category,setCategory] = useState("Assembly");
@@ -105,10 +106,7 @@ const Home = () => {
             <img src={topleft} alt="topleft" />
         </div>
         <div className='max-w-screen h-auto flex flex-col justify-center items-center gap-5'>
-            <div className='w-full h-auto pl-[15vw]'>
-                <img src={ikea} alt="ikea" className='w-[7vw] h-auto'/>
-            </div>
-            <div className='w-[42vw] h-auto'>
+            <div className='w-[42vw] h-auto mt-[20vh]'>
                 <h1 className='text-[8.6vh] font-bold text-center text-[#386842] leading-tight' style={{WebkitTextStroke:".3px #000"}}>
                     Book trusted help for home tasks
                 </h1>
@@ -138,6 +136,7 @@ const Home = () => {
             <ServiceProvider/>
             <Review/>
             <HomeSatisfaction/>
+            <GetHelp/>
         </div>
     </div>
   )
