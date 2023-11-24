@@ -26,6 +26,7 @@ import ServiceProvider from '../ServiceProvider/ServiceProvider';
 import Review from '../Review/Review';
 import HomeSatisfaction from './HomeSatisfaction';
 import GetHelp from '../GetHelp/GetHelp';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     const [category,setCategory] = useState("Assembly");
@@ -99,6 +100,7 @@ const Home = () => {
   return (
     <div className='max-w-screen h-auto relative '>
         <NavBar/>
+        <button className=' bg-[#386842] text-white px-4 py-[2.5px] top-[93vh] left-3 rounded-3xl text-2xl fixed z-20'>Help ?</button>
         <div className='absolute right-0'>
             <img src={topRight} alt="topright" />
         </div>
@@ -137,6 +139,7 @@ const Home = () => {
             <Review/>
             <HomeSatisfaction/>
             <GetHelp/>
+            <Footer/>
         </div>
     </div>
   )
