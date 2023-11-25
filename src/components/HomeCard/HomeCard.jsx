@@ -1,18 +1,32 @@
-import React from 'react'
+import React from "react";
 import { TiInputChecked } from "react-icons/ti";
-const HomeCard = ({category,title,p1,p2,bg}) => {
+const HomeCard = ({ category, title, p1, p2, bg }) => {
   return (
-    <div className={category === title ?"block w-[75%] bg-[#e2f1fb] mx-auto relative rounded-2xl":"hidden"}>
-        <div className='ml-[6vw] w-[90%] h-[90%] py-9 '>
-          <div className='absolute left-7 top-[15vh] bg-white w-[23vw] h-[46vh] flex flex-col justify-center items-start gap-9 px-9 rounded-xl'>
-            <p className='text-3xl font-semibold'>{title}</p>
-            <div className='flex justify-center items-center gap-3'><TiInputChecked className='text-[30px] w-[10%]'/><p className='text-lg font-light w-[90%]'>{p1}</p></div>
-            <div className='flex justify-center items-center gap-3'><TiInputChecked className='text-[30px] w-[10%]'/><p className='text-lg font-light w-[90%]'>{p2}</p></div>
+    <div
+      className={
+        category === title
+          ? "block w-[100%] rounded-2xl"
+          : "hidden"
+      }
+      >
+        <div className="relative">
+          <div className="lg:absolute xl:absolute static md:static left-36 shadow-none md:shadow-none lg:shadow-lg xl:shadow-lg top-24 bg-white w-full md:w-full lg:w-[340px] xl:w-[340px] h-auto md:h-auto lg:h-[360px] xl:h-[360px] flex flex-col justify-start items-start gap-9 px-9 rounded-xl mb-9">
+            <p className="text-3xl font-semibold">{title}</p>
+            <div className="flex justify-start items-start gap-3">
+              <TiInputChecked className="text-[30px] w-[10%]" />
+              <p className="text-lg font-light w-[90%]">{p1}</p>
+            </div>
+            <div className="flex justify-start items-start gap-3">
+              <TiInputChecked className="text-[30px] w-[10%]" />
+              <p className="text-lg font-light w-[90%]">{p2}</p>
+            </div>
           </div>
-          <img src={bg} alt={title} className='w-full h-auto'/>
+          <div className="w-full  md:w-full lg:w-[70%] xl:w-[70%] h-auto  bg-[#e2f1fb] py-8 pl-14 rounded-2xl pr-7 mx-auto">
+            <img src={bg} alt={title} className="w-full h-auto" />
+          </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default HomeCard
+export default HomeCard;

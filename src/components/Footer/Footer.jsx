@@ -5,9 +5,9 @@ import img2 from '../../assets/Taskrabbit_Same_Day_Handyman,_Moving_Mounting_Ser
 
 const Footer = () => {
   return (
-    <div className='w-full h-auto max-w-screen bg-slate-400 p-10 z-10'>
-        <div className='w-[80%] mx-auto flex flex-col justify-start gap-6'>
-            <div className='flex justify-start items-center gap-6 text-2xl '>
+    <div className='w-full h-auto max-w-screen bg-slate-400 z-10 py-8'>
+        <div className='w-[93%] md:w-[95%] lg:w-[80%] xl:w-[80%] mx-auto flex flex-col justify-start gap-6'>
+            <div className='flex justify-start items-center gap-2 md:gap-2 lg:gap-6 xl:gap-6 text-lg md:text-lg lg:text-2xl xl:text-2xl '>
                 <p className='text-black/50'>Follow us! We're friendly:</p>
                 <span className='flex justify-center items-center gap-6 text-white cursor-pointer'><FaTiktok/><span> |</span></span>
                 <span className='flex justify-center items-center gap-6 text-white cursor-pointer'><FaInstagram/><span> |</span></span>
@@ -15,7 +15,7 @@ const Footer = () => {
                 <span className='flex justify-center items-center gap-6 text-white cursor-pointer'><FaTwitter/><span> |</span> </span>
                 <span className='flex justify-center items-center gap-6 text-white cursor-pointer'><FaLinkedin/></span>
             </div>
-            <div className='flex justify-between items-start w-full'>
+            <div className='flex flex-col md:flex-col lg:flex-row xl:flex-row gap-8 justify-between items-start w-full'>
                 <div className='flex flex-col justify-start items-center gap-2'>
                     <h1 className='w-full text-start text-xl text-black/50 font-semibold'>Discover</h1>
                     <div className='flex flex-col justify-start items-start  gap-1 text-white text-md font-bold'>
@@ -44,8 +44,8 @@ const Footer = () => {
                     <div className='flex flex-col justify-start items-start  gap-1 text-white text-md font-bold'>
                         <p>Tackle your to-do list wherever you are with our <br /> mobile app.</p>
                         <div className='flex flex-col gap-7 justify-center items-center mt-10'>
-                            <img src={img1} alt="google" className='w-[15vw]'/>
-                            <img src={img2} alt="iso"  className='w-[15vw]'/>
+                            <img src={img1} alt="google" className='w-[180px]'/>
+                            <img src={img2} alt="iso"  className='w-[180px]'/>
                         </div>
                     </div>
                 </div>

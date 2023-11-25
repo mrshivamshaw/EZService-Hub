@@ -98,31 +98,31 @@ const Home = () => {
 
     ]
   return (
-    <div className='max-w-screen h-auto relative '>
+    <div className='w-[100vw] h-auto relative overflow-hidden overflow-x-hidden'>
         <NavBar/>
         <button className=' bg-[#386842] text-white px-4 py-[2.5px] top-[93vh] left-3 rounded-3xl text-2xl fixed z-20'>Help ?</button>
-        <div className='absolute right-0'>
+        <div className='absolute right-0 hidden md:hidden lg:block xl:block'>
             <img src={topRight} alt="topright" />
         </div>
-        <div className='absolute left-0 top-[20vh]'>
+        <div className='absolute left-0 top-[20vh] hidden md:hidden lg:block xl:block'>
             <img src={topleft} alt="topleft" />
         </div>
-        <div className='max-w-screen h-auto flex flex-col justify-center items-center gap-5'>
-            <div className='w-[42vw] h-auto mt-[20vh]'>
-                <h1 className='text-[8.6vh] font-bold text-center text-[#386842] leading-tight' style={{WebkitTextStroke:".3px #000"}}>
-                    Book trusted help for home tasks
+        <div className='w-[100vw] overflow-hidden h-auto flex flex-col justify-center items-center gap-5'>
+            <div className='h-auto mt-[10vh] md:mt-[10vh] lg:mt-[20vh] xl:mt-[20vh] w-full pl-4 md:pl-4 lg:pl-0 xl:pl-0 mx-auto'>
+                <h1 className='text-4xl md:text-[8.6vh] lg:text-[8.6vh] xl:text-[8.6vh] font-bold text-start md:text-center lg:text-center xl:text-center text-[#386842] leading-tight' style={{WebkitTextStroke:".3px #000"}}>
+                    Book trusted help <br /> for home tasks
                 </h1>
             </div>
-            <div className='outline outline-1 w-[45vw] h-[8vh] flex items-center rounded-[30px] mt-8'>
+            <div className='outline outline-1 w-[95%] md:w-[60vw] lg:w-[45vw] xl:w-[45vw] h-[8vh] flex items-center rounded-[30px] mt-8'>
                 <input type="text" style={{all:"unset",width:"100%",height:"100%",padding:"1px 30px",fontSize:"22px"}} placeholder='What do you need help with?'/>
-                <button className='p-4 bg-[#386842] rounded-r-[30px]'><IoSearchOutline className='text-3xl text-white'/></button>
+                <button className='p-4 bg-[#386842] rounded-r-[30px] h-full flex justify-center items-center'><IoSearchOutline className='text-3xl text-white'/></button>
             </div>
-            <div className='flex justify-center items-center h-auto w-full gap-[6vw] mt-12 border-b-2 '>
+            <div className='flex justify-center items-center h-auto w-full md:w-full lg:w-[85%] xl:w-[85%] gap-[6vw] mt-12 border-b-2 md:overflow-x-scroll overflow-x-scroll lg:overflow-x-hidden xl:overflow-x-hidden'>
                 {
                     services.map((service,index)=>(
-                        <div onClick={()=>setCategory(service.service)} key={index} className={category===`${service.service}` ? 'flex flex-col justify-center items-center gap-4 text-[#40864f]  border-b-2 border-[#386842] pb-3 cursor-pointer' : 'flex flex-col justify-center items-center gap-4 cursor-pointer'}>
+                        <div onClick={()=>setCategory(service.service)} key={index} className={category===`${service.service}` ? ' flex flex-col justify-center items-center gap-4 text-[#40864f]  border-b-2 border-[#386842] pb-3 cursor-pointer' : ' flex flex-col justify-center items-center gap-4 cursor-pointer'}>
                             {service.icon}
-                            <span className='text-lg font-semibold'>{service.service}</span>
+                            <span className='text-[2vh] font-semibold'>{service.service}</span>
                         </div>
                     ))
                 }
