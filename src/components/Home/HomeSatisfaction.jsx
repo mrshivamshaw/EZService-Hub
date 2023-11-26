@@ -32,7 +32,7 @@ const HomeSatisfaction = () => {
             </div>
             <div className='relative w-[93%] md:w-[93%] lg:w-[75%] xl:w-[75%] h-auto mx-auto mt-[12vh] bg-slate-200'>
                 <img src={img2} alt="img2" className='w-full h-auto'/>
-                <div className='flex flex-col gap-6 static mx-auto lg:absolute xl:absolute top-9 -left-20 bg-white p-10 w-full md:w-full lg:w-[400px] xl:w-[400px] h-auto md:h-auto lg:h-[400px] xl:h-[400px] rounded-md shadow-lg'>
+                <div className='flex flex-col gap-6 static mx-auto lg:absolute xl:absolute top-9 -left-20 bg-white p-3 md:p-3 lg:p-10 xl:p-10 w-full md:w-full lg:w-[400px] xl:w-[400px] h-auto md:h-auto lg:h-[400px] xl:h-[400px] rounded-md shadow-lg'>
                     <div><h1 className='text-xl md:text-xl lg:text-2xl xl:text-2xl font-semibold'>How it works</h1></div>
                     <div className='flex justify-start items-center gap-8'>
                         <span className='text-lg md:text-lg lg:text-3xl xl:text-3xl px-6 py-[15px] bg-slate-300 rounded-full'>1</span>
