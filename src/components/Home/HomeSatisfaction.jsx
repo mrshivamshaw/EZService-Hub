@@ -5,11 +5,11 @@ import img2 from '../../assets/Taskrabbit_Same_Day_Handyman,_Moving_Mounting_Ser
 
 const HomeSatisfaction = () => {
   return (
-    <div className='relative w-full h-auto '>
-        <div className='w-[90%] mx-auto flex flex-col items-start gap-[3vh] mb-[10vh]'>
-            <h1 className='w-full text-start text-4xl font-bold ' style={{WebkitTextStroke:".3px #0d7a5f"}}>Your satisfaction, <span className='text-[#386842]'>guaranteed</span></h1>
+    <div className='relative w-[100vw] h-auto overflow-x-hidden'>
+        <div className='w-full md:w-full lg:w-[90%] xl:w-[90%] mx-auto flex flex-col items-start gap-[3vh] mb-[10vh]'>
+            <h1 className='w-[93%] md:w-[93%] lg:w-full xl:w-full text-start text-4xl font-bold mx-auto' style={{WebkitTextStroke:".3px #0d7a5f"}}>Your satisfaction, <span className='text-[#386842]'>guaranteed</span></h1>
             <div className='absolute right-0 top-10 hidden md:hidden lg:block xl:block'><img src={BottomRight} alt="right" /></div>
-            <div className='flex flex-wrap w-full justify-between items-start gap-8 '>
+            <div className='flex flex-wrap w-[93%] md:w-[93%] lg:w-full xl:w-full mx-auto justify-between items-start gap-8 '>
                 <div className='flex flex-col items-start gap-[1.5vh] w-[337px]'>
                     <h1 className='text-2xl font-semibold pt-2 text-[#386842]' style={{WebkitTextStroke:".3px #386842"}}>
                         Happiness Pledge    
@@ -27,14 +27,12 @@ const HomeSatisfaction = () => {
                     <h1 className='text-2xl font-semibold pt-2 text-[#386842]' style={{WebkitTextStroke:".3px #386842"}}>
                     Dedicated Support    
                     </h1>
-                    <p className='text-xl'>Friendly service when you need us – every day of the week.
-
-</p>
+                    <p className='text-xl'>Friendly service when you need us – every day of the week.</p>
                 </div>
             </div>
-            <div className='relative w-[75%] h-auto mx-auto mt-[12vh]'>
+            <div className='relative w-[93%] md:w-[93%] lg:w-[75%] xl:w-[75%] h-auto mx-auto mt-[12vh] bg-slate-200'>
                 <img src={img2} alt="img2" className='w-full h-auto'/>
-                <div className='flex flex-col gap-6 static mx-auto lg:absolute xl:absolute top-9 -left-20 bg-white p-10 w-[400px] h-[400px] rounded-md shadow-lg'>
+                <div className='flex flex-col gap-6 static mx-auto lg:absolute xl:absolute top-9 -left-20 bg-white p-10 w-full md:w-full lg:w-[400px] xl:w-[400px] h-[400px] rounded-md shadow-lg'>
                     <div><h1 className='text-2xl font-semibold'>How it works</h1></div>
                     <div className='flex justify-start items-center gap-8'>
                         <span className='text-3xl px-6 py-[15px] bg-slate-300 rounded-full'>1</span>

@@ -98,7 +98,7 @@ const Home = () => {
 
     ]
   return (
-    <div className='w-[100vw] h-auto relative overflow-hidden overflow-x-hidden'>
+    <div className='max-w-[100vw] h-auto relative overflow-hidden overflow-x-hidden'>
         <NavBar/>
         <button className=' bg-[#386842] text-white px-4 py-[2.5px] top-[93vh] left-3 rounded-3xl text-2xl fixed z-20'>Help ?</button>
         <div className='absolute right-0 hidden md:hidden lg:block xl:block'>
@@ -117,17 +117,20 @@ const Home = () => {
                 <input type="text" style={{all:"unset",width:"100%",height:"100%",padding:"1px 30px",fontSize:"22px"}} placeholder='What do you need help with?'/>
                 <button className='p-4 bg-[#386842] rounded-r-[30px] h-full flex justify-center items-center'><IoSearchOutline className='text-3xl text-white'/></button>
             </div>
-            <div className='flex justify-center items-center h-auto w-full md:w-full lg:w-[85%] xl:w-[85%] gap-[6vw] mt-12 border-b-2 md:overflow-x-scroll overflow-x-scroll lg:overflow-x-hidden xl:overflow-x-hidden'>
-                {
-                    services.map((service,index)=>(
-                        <div onClick={()=>setCategory(service.service)} key={index} className={category===`${service.service}` ? ' flex flex-col justify-center items-center gap-4 text-[#40864f]  border-b-2 border-[#386842] pb-3 cursor-pointer' : ' flex flex-col justify-center items-center gap-4 cursor-pointer'}>
-                            {service.icon}
-                            <span className='text-[2vh] font-semibold'>{service.service}</span>
-                        </div>
-                    ))
-                }
+            <div className='w-full'>
+                <div className='flex mx-auto justify-center items-center h-auto w-auto md:w-auto lg:w-[85%] xl:w-[85%] gap-[6vw] mt-12 border-b-2 overflow-x-scroll pl-[79vw] lg:pl-0 xl:pl-0 md:pl-[79vw] pr-5 md:pr-5 lg:pr-0 xl:pr-0 md:overflow-x-scrolllg:overflow-x-hidden xl:overflow-x-hidden'>
+
+                    {
+                        services.map((service,index)=>(
+                            <div onClick={()=>setCategory(service.service)} key={index} className={category===`${service.service}` ? ' flex flex-col justify-center items-center gap-4 text-[#40864f]  border-b-2 border-[#386842] pb-3 cursor-pointer' : ' flex flex-col justify-center items-center gap-4 cursor-pointer'}>
+                                {service.icon}
+                                <span className='text-[2vh] font-semibold'>{service.service}</span>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
-            <div className='w-full h-auto my-[4vh]'>
+            <div className='w-full h-auto my-[2vh] md:my-[2vh] lg:my-[4vh] xl:my-[4vh]'>
                 {
                     services.map((service,index)=>(
                         <HomeCard key={index} category = { category } title={service.title} p1={service.p1} p2={service.p2} bg={service.img}/>

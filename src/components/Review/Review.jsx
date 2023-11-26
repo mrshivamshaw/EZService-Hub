@@ -7,7 +7,7 @@ import { IoStar } from "react-icons/io5";
 const Review = () => {
   const reviews = reviewsData.reviews;
   return (
-    <div className="w-full h-auto relative flex flex-col justify-center items-center gap-[4vh] mt-[20vh] mb-[15vh]">
+    <div className="w-[100vw] overflow-x-hidden h-auto relative flex flex-col justify-center items-center gap-[4vh] mt-[20vh] mb-[15vh]">
       <div className="absolute left-0 -top-[250px] hidden md:hidden lg:block xl:block">
         <img src={midLeft} alt="midLeft" />
       </div>
@@ -19,7 +19,7 @@ const Review = () => {
           See what happy customers are saying about EZService Hub
         </h1>
       </div>
-      <div className="flex flex-wrap w-[100%] md:w-[85%] lg:w-[85%] xl:w-[85%] mx-auto justify-center items-center gap-x-10 gap-y-7">
+      <div className="flex flex-wrap w-[100%] md:w-[85%] lg:w-[85%] xl:w-[85%] mx-auto justify-center items-center gap-x-10 ">
         {reviews.map((review) => (
           <div
             key={review.id}

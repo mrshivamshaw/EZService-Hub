@@ -8,10 +8,10 @@ const Gethelp = getHelp.getHelp
  
 const GetHelp = () => {
   return (
-    <div className='w-full h-auto mx-auto pb-[15vh] relative'>
+    <div className='max-w-[100vw] h-auto mx-auto pb-[15vh] relative'>
         <div className='hidden md:hidden lg:block xl:block'><img src={img1} alt="left" className='absolute -bottom-10 z-0'/></div>
         <div className='hidden md:hidden lg:block xl:block'><img src={img2} alt="right" className='absolute right-0'/></div>
-        <div className='flex flex-col w-[80%] mx-auto gap-[8vh]'>
+        <div className='flex flex-col w-[93%] md:w-[93%] lg:w-[80%] xl:w-[80%] mx-auto gap-[8vh]'>
             <div><h1 className='w-full text-start text-4xl font-bold text-[#386842]' style={{WebkitTextStroke:".3px #000"}}>Get help Today</h1></div>
             <div className='flex flex-wrap w-full gap-5'>
                 {

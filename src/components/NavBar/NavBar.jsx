@@ -15,7 +15,7 @@ const NavBar = () => {
             <div>
                 <ul className='flex justify-center items-center gap-11 ' >
                     <li>
-                        <button className='font-medium text-[17px] hidden md:hidden lg:block xl:block'>Services</button>
+                        <button className='font-medium text-lg md:text-lg lg:text-[17px] xl:text-[17px] '>Services</button>
                     </li>
                     <li className='hidden md:hidden lg:block xl:block'>
                         <div  className='font-medium text-[17px]'>
