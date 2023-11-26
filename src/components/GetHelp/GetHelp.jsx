@@ -15,8 +15,8 @@ const GetHelp = () => {
             <div><h1 className='w-full text-start text-4xl font-bold text-[#386842]' style={{WebkitTextStroke:".3px #000"}}>Get help Today</h1></div>
             <div className='flex flex-wrap w-full gap-5'>
                 {
-                    Gethelp.map((help)=>(
-                        <button className='border-[1px] border-black rounded-2xl py-[3px] px-4 text-sm md:text-sm lg:text-2xl xl:text-lg font-medium'>{help}</button>
+                    Gethelp.map((help,index)=>(
+                        <button key={index} className='border-[1px] border-black rounded-2xl py-[3px] px-4 text-sm md:text-sm lg:text-2xl xl:text-lg font-medium'>{help}</button>
                     ))
                 }
             </div>
