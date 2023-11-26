@@ -32,19 +32,19 @@ const HomeSatisfaction = () => {
             </div>
             <div className='relative w-[93%] md:w-[93%] lg:w-[75%] xl:w-[75%] h-auto mx-auto mt-[12vh] bg-slate-200'>
                 <img src={img2} alt="img2" className='w-full h-auto'/>
-                <div className='flex flex-col gap-6 static mx-auto lg:absolute xl:absolute top-9 -left-20 bg-white p-10 w-full md:w-full lg:w-[400px] xl:w-[400px] h-[400px] rounded-md shadow-lg'>
-                    <div><h1 className='text-2xl font-semibold'>How it works</h1></div>
+                <div className='flex flex-col gap-6 static mx-auto lg:absolute xl:absolute top-9 -left-20 bg-white p-10 w-full md:w-full lg:w-[400px] xl:w-[400px] h-auto md:h-auto lg:h-[400px] xl:h-[400px] rounded-md shadow-lg'>
+                    <div><h1 className='text-xl md:text-xl lg:text-2xl xl:text-2xl font-semibold'>How it works</h1></div>
                     <div className='flex justify-start items-center gap-8'>
-                        <span className='text-3xl px-6 py-[15px] bg-slate-300 rounded-full'>1</span>
-                        <p className='text-xl'>Choose a Tasker by price, skills, and reviews.</p>
+                        <span className='text-lg md:text-lg lg:text-3xl xl:text-3xl px-6 py-[15px] bg-slate-300 rounded-full'>1</span>
+                        <p className='text-base md:text-base lg:text-xl xl:text-xl'>Choose a Tasker by price, skills, and reviews.</p>
                     </div>
                     <div className='flex justify-start items-center gap-8'>
-                        <span className='text-3xl px-6 py-[15px]'>2</span>
-                        <p className='text-xl'>Schedule a Tasker as early as today.</p>
+                        <span className='text-lg md:text-lg lg:text-3xl xl:text-3xl px-6 py-[15px]'>2</span>
+                        <p className='text-base md:text-base lg:text-xl xl:text-xl'>Schedule a Tasker as early as today.</p>
                     </div>
                     <div className='flex justify-start items-center gap-8'>
-                        <span className='text-3xl px-6 py-[15px] bg-teal-100 text-center rounded-full'>3</span>
-                        <p >Chat, pay, tip, and review all in one place.</p>
+                        <span className='text-lg md:text-lg lg:text-3xl xl:text-3xl px-6 py-[15px] bg-teal-100 text-center rounded-full'>3</span>
+                        <p className='text-base md:text-base lg:text-xl xl:text-xl' >Chat, pay, tip, and review all in one place.</p>
                     </div>
                 </div>
             </div>
