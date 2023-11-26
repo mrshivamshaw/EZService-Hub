@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa6'
 import { FaTimes } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     const [navActive,setNavActive] = useState(false)
@@ -19,9 +20,13 @@ const NavBar = () => {
                     </li>
                     <li className='hidden md:hidden lg:block xl:block'>
                         <div  className='font-medium text-[17px]'>
-                            <button>Sign up</button>
+                            <Link to='/signin' >
+                                <button>Sign up</button>
+                            </Link>
                             <span> / </span>
-                            <button>Log in</button>
+                            <Link to='/login'>
+                                <button>Log in</button>
+                            </Link>
                         </div>
                     </li>
                     <li>

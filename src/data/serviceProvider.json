@@ -8,7 +8,47 @@
         "location": "City A",
         "availability": "Monday to Friday",
         "rating": 4.5,
-        "hourlyRate": 20
+        "hourlyRate": 20,
+        "about":"Please keep in mind that all taskers have until 9pm to schedule a task, so be conscious of when you put a request so that it doesn't cancel because we had too little time. I'm always busy and don't want anyone to think I am rejecting their task without communication. Sending me a message will help the notification as well. Other than that first snippet, I enjoy doing things differently than most people's average day, and I have more potential to help someone out than I would if I were solely working a payroll job. I also enjoy getting to see what I am in for, for each day. (I'm a secret service agent, here to do secret service agent stuff. It's in parentheses because it's a secret. I deliver classified documents, complete classified yard work, fight through classified plant missions, and only shed some classified tears.)",
+        "skill":"Cleaning? I've been cleaning since I was born. Do I enjoy cleaning? As a teenager, I can assure you, I did not. As an adult? I can assure you that cleaning is one of my favorite things to do. Especially when it is a particularly difficult job, because I enjoy the process, thinking of better ways to clean, and then the end result. You'll probably enjoy it as much as I do after seeing the finished product once I am done.",
+        "reviews":[
+          {
+            "name": "Holland F.",
+            "rating": 5.0,
+            "service": "CLEANING",
+            "date": "Fri, Nov 24",
+            "comment": "Jaicie did an amazing job cleaning my apartment after I moved out! Brought all of her own supplies and made it so I didn’t have to worry about anything. Definitely recommend!"
+          },
+          {
+            "name": "Rand F.",
+            "rating": 5.0,
+            "service": "CLEANING",
+            "date": "Sun, Nov 19",
+            "comment": "Highly recommend!! trust me, she is the best!"
+          },
+          {
+            "name": "Rosemary L.",
+            "rating": 5.0,
+            "service": "CLEANING",
+            "date": "Fri, Nov 17",
+            "comment": " They went above and beyond my expectations. I would definitely book them again in the future. Highly recommend!"
+          },
+          {
+            "name": "Anne S.",
+            "rating": 5.0,
+            "service": "CLEANING",
+            "date": "Mon, Nov 13",
+            "comment": "She is wonderful to work with."
+          },
+          {
+            "name": "Meredith E.",
+            "rating": 5.0,
+            "service": "CLEANING",
+            "date": "Mon, Nov 13",
+            "comment": "Jaicie did a great job deep cleaning my home before my renters moved in! They went above and beyond my expectations. I would definitely book them again in the future. Highly recommend!"
+          }
+        ]
+        
       },
       {
         "id": 2,
@@ -18,7 +58,47 @@
         "location": "City B",
         "availability": "Weekends",
         "rating": 4.8,
-        "hourlyRate": 25
+        "hourlyRate": 25,
+        "about":"I am a full time Tasker ; I am originally from Venezuela. I have been doing these skills from a long time on my country ; I have all the tools for the jobs; now I’m here in colorado I am available to help every body who needs me thank you so much if hire me I’m fully vaccinated I’m a pet friendly",
+        "skill":"I have over 20 years of experience in construction and am skilled in replacing or fixing faucets, shower fixtures, toilets, dishwashers, leaky valves, and drains. I'm insured and you should make sure any one you hire on here is. I'll bring my own tools, and work efficiently until the job is complete to the customers standards. I'm proficient at most small home repairs, so feel free to ask questions if you have them. Thank you for your consideration.",
+        "reviews":[
+          {
+            "name": "Ruben D.",
+            "rating": 5.0,
+            "service": "ELECTRICAL HELP",
+            "date": "Mon, May 15",
+            "comment": "2nd time to use Jordan and he is great! Would request him again if needed as he knows how to do several things including plumbing, electrical, and all handyman stuff! TY!"
+          },
+          {
+            "name": "Mariella G.",
+            "rating": 5.0,
+            "service": "PLUMBING HELP",
+            "date": "Wed, May 10",
+            "comment": "Jordan was wonderful! Very professional and communicative! Did a great job with our plumbing needs."
+          },
+          {
+            "name": "Sybil F.",
+            "rating": 5.0,
+            "service": "LIGHT CARPENTRY",
+            "date": "Fri, May 5",
+            "comment": "Jordan is fast, honest and has great attention to detail. Would hire him again!"
+          },
+          {
+            "name": "Robert S.",
+            "rating": 5.0,
+            "service": "PLUMBING HELP",
+            "date": "Mon, May 1",
+            "comment": "Jordan arrived punctually, was polite, professional and worked efficiently. I was very pleased with his expertise and would highly recommend him."
+          },
+          {
+            "name": "Joseph L.",
+            "rating": 5.0,
+            "service": "ELECTRICAL HELP",
+            "date": "Sat, Apr 29",
+            "comment": "Jordan did a great job on my project. He showed up on time, was so personable and professional, and completed the ceiling fan installation quickly and efficiently. I couldn't be happier with the job he did. I would definitely start with him for any future jobs. do the same with this"
+          }
+        ]
+        
       },
       {
         "id": 3,
@@ -28,7 +108,47 @@
         "location": "City C",
         "availability": "Tuesday to Thursday",
         "rating": 4.2,
-        "hourlyRate": 18
+        "hourlyRate": 18,
+        "about":"Hard working Denver native who is very experienced in completing any project thrown my way. 10+ years experience in landscaping, 3+ years experience in the construction industry. Very detail oriented, professional and take pride in my work. Comfortable in completing any task no matter how big or small. Let’s chat about the task details so I can come prepared with all the necessary tools! Flexible on timing of jobs and can usually start asap",
+        "skill":"10+yrs landscaping experience. Specialize in yard cleanups, weeding, trimming, snow/ice Etc. I bring my own hand tools, pruners large and small, eco friendly electric tools, leaf blowers, weed whacker, hedge trimmer, sawzall, rake/shovels, extra bags to complete the job (don't own a mower but can mow if ones provided) and I make sure to cleanup with my leaf blower! Also own a 18 foot ladder and can do first story gutter cleaning on homes and garages! Look forward to our first task",
+        "reviews":[
+          {
+            "name": "Arleen M.",
+            "rating": 5.0,
+            "service": "YARD WORK",
+            "date": "Mon, Jun 29, 2020",
+            "comment": "Tom did a fabulous job! Was prompt, thorough, friendly and professional. Would def hire again."
+          },
+          {
+            "name": "Anne Marie A.",
+            "rating": 5.0,
+            "service": "YARD WORK",
+            "date": "Fri, Jun 26, 2020",
+            "comment": "Tom was awesome. I hired him to dig up some dead bushes, which didn’t take long, but he went above and beyond, pulling a bunch of weeds and doing other stuff to tidy my front yard. Would definitely recommend him and will likely hire him again!"
+          },
+          {
+            "name": "Annie F.",
+            "rating": 5.0,
+            "service": "YARD WORK",
+            "date": "Tue, Jun 23, 2020",
+            "comment": "Tom was very responsive, thorough, and completed our project exactly as needed. I would recommend Tom and hope to work with him again."
+          },
+          {
+            "name": "Megan P.",
+            "rating": 5.0,
+            "service": "YARD WORK",
+            "date": "Wed, Jun 17, 2020",
+            "comment": "Tom did a fantastic job at our house- weeding and adjusting our sprinklers. He even came back to fix a sprinkler head. Highly recommend!"
+          },
+          {
+            "name": "Kieran A.",
+            "rating": 5.0,
+            "service": "YARD WORK",
+            "date": "Wed, Jun 17, 2020",
+            "comment": "Great work. Would hire again! do the same"
+          }
+        ]
+        
       },
       {
         "id": 4,
@@ -38,7 +158,47 @@
         "location": "City D",
         "availability": "Monday, Wednesday",
         "rating": 4.6,
-        "hourlyRate": 28
+        "hourlyRate": 28,
+        "about":"Being on Taskrabbit supports my small business. I do carpentry, plumbing, and electrical outside the wall, mounting, and assembly. I drive a Ford Excursion, which is big enough to fit full sheets of drywall and plywood. I also have a landscaping trailer, which I can use to haul items, although I mostly use it to haul around a welder-generator and a workbench to offer welding services.",
+        "skill":"Dedicated and skilled handyman with years of experience in efficient and accurate general construction and handyman work (drywall, paint, woodworking, minor plumbing, etc.). Proven track record of providing exceptional service to clients by combining technical expertise with excellent customer service. Able to supply and effectively utilize a comprehensive set of tools for optimal and efficient results. I would love to help you get your job done",
+        "reviews":[
+          {
+            "name": "David D.",
+            "rating": 5.0,
+            "service": "LIGHT CARPENTRY",
+            "date": "Fri, Jun 19, 2020",
+            "comment": "Roberto was very good, knew what he was doing. You could tell he has done this kind"
+          },
+          {
+            "name": "Raji G.",
+            "rating": 5.0,
+            "service": "MINOR HOME REPAIRS",
+            "date": "Fri, Jun 5, 2020",
+            "comment": "Thanks for painting our bathroom ceiling and drywall."
+          },
+          {
+            "name": "Latashia M.",
+            "rating": 5.0,
+            "service": "LIGHT CARPENTRY",
+            "date": "Wed, May 20, 2020",
+            "comment": "Roberto was an absolute perfectionist! He rebuilt my kitchen drawer, brought his own tools (including workbench), cleaned up after himself, and (especially during this time of COVID-19) wore a mask anytime he entered my home! 10 STARS!"
+          },
+          {
+            "name": "Ashley L.",
+            "rating": 5.0,
+            "service": "MINOR HOME REPAIRS",
+            "date": "Wed, May 20, 2020",
+            "comment": "He was very quick and nice."
+          },
+          {
+            "name": "flora b.",
+            "rating": 5.0,
+            "service": "MINOR HOME REPAIRS",
+            "date": "Mon, May 18, 2020",
+            "comment": "Roberto was very good, knew what he was doing. You could tell he has done this kind of work before, I was very pleased. He took down the old ceiling fan and put the new one up like it was nothing. do the same"
+          }
+        ]
+        
       },
       {
         "id": 5,
@@ -48,7 +208,46 @@
         "location": "City E",
         "availability": "Weekdays",
         "rating": 4.3,
-        "hourlyRate": 35
+        "hourlyRate": 35,
+        "skill":"Hello. Thanks for thinking of me. I have all the tools and patience to assemble those pieces. I have assembled many products for family and friends. They know I’m the person to call. Thanks again!",
+        "about":"Hello. I’m new to Tasker, but if you give me a chance I will not disappoint you. I’m a Tasker because I truly enjoy helping people. I enjoy meeting new people and taking care of the task they either don’t want to do or don’t know how to do.",
+        "reviews": [
+          {
+            "name": "Carrie Z.",
+            "rating": 5.0,
+            "service": "FURNITURE ASSEMBLY",
+            "date": "Tue, Nov 21",
+            "comment": "Andrew was punctual, efficient, kind, thorough, and proactive. I was so impressed by his customer service and overall quality."
+          },
+          {
+            "name": "Catherine O.",
+            "rating": 5.0,
+            "service": "FURNITURE ASSEMBLY",
+            "date": "Fri, Nov 17",
+            "comment": "Andrew was a great worker! He did a terrific job!"
+          },
+          {
+            "name": "Jason H.",
+            "rating": 5.0,
+            "service": "IKEA ASSEMBLY",
+            "date": "Mon, Nov 13",
+            "comment": "Andrew was excellent, knew what he was doing and a generally nice guy. Got the bedroom set up and ready. Would definitely recommend him👍"
+          },
+          {
+            "name": "Clarissa T.",
+            "rating": 5.0,
+            "service": "FURNITURE ASSEMBLY",
+            "date": "Sun, Nov 12",
+            "comment": "Andrew was great to work with. Assembly went smoothly and he was very creative in getting it relocated to the small room where the counter belongs. Plus he did it in a tight time frame to accommodate me and I really appreciate how conscious of that he was throughout."
+          },
+          {
+            "name": "Jessica L.",
+            "rating": 5.0,
+            "service": "FURNITURE ASSEMBLY",
+            "date": "Fri, Nov 3",
+            "comment": "Andrew was excellent. He quickly assembled a bed for us, hung up pictures and a very heavy mirror and helped with a few minor fix its around the house.. he was fast, effective and knowledgeable. would definitely hire him again!"
+          }
+        ]
       },
       {
         "id": 6,
@@ -58,7 +257,47 @@
         "location": "City F",
         "availability": "Daily",
         "rating": 4.9,
-        "hourlyRate": 15
+        "hourlyRate": 15,
+        "about":"Hi! I am a hard worker with extensive experience in several industries related to many of the tasks I offer. I live to please, and I love the satisfaction of standing back and soaking in a job-well-done. I am desperately hoping to fund a road trip.",
+        "skill":"Hi, I would like the opportunity to care for your fur baby(s). I've had many throughout my life. As a mature older person, I have much experience in caregiving. I have grandchildren also. Large farm exp. birthing, tending, feeding, babies, etc. Critters of all types. With being a freelance caregiver and Tasker I've the freedom to come and go. Call or text. Very busy. So, please give adequate time to prepare. Thank you for your time. Sharon Baker",
+        "reviews":[
+          {
+            "name": "David D.",
+            "rating": 5.0,
+            "service": "LIGHT CARPENTRY",
+            "date": "Fri, Jun 19, 2020",
+            "comment": "..."
+          },
+          {
+            "name": "Raji G.",
+            "rating": 5.0,
+            "service": "MINOR HOME REPAIRS",
+            "date": "Fri, Jun 5, 2020",
+            "comment": "Thanks for painting our bathroom ceiling and drywall."
+          },
+          {
+            "name": "Latashia M.",
+            "rating": 5.0,
+            "service": "LIGHT CARPENTRY",
+            "date": "Wed, May 20, 2020",
+            "comment": "Roberto was an absolute perfectionist! He rebuilt my kitchen drawer, brought his own tools (including workbench), cleaned up after himself, and (especially during this time of COVID-19) wore a mask anytime he entered my home! 10 STARS!"
+          },
+          {
+            "name": "Ashley L.",
+            "rating": 5.0,
+            "service": "MINOR HOME REPAIRS",
+            "date": "Wed, May 20, 2020",
+            "comment": "He was very quick and nice."
+          },
+          {
+            "name": "flora b.",
+            "rating": 5.0,
+            "service": "MINOR HOME REPAIRS",
+            "date": "Mon, May 18, 2020",
+            "comment": "Roberto was very good, knew what he was doing. You could tell he has done this kind of work before, I was very pleased. He took down the old ceiling fan and put the new one up like it was nothing. do the same"
+          }
+        ]
+        
       },
       {
         "id": 7,
@@ -68,7 +307,47 @@
         "location": "City G",
         "availability": "Monday, Thursday",
         "rating": 4.7,
-        "hourlyRate": 40
+        "hourlyRate": 40,
+        "about":"✅My priority is the service and reliability of completed orders for my clients, I have more than 11 years of experience 👷‍♂️working with electricians💡🔌 in homes and factories with electrical installations and complex equipment, I am ready to work and ready to do quality work for this I have enough different professional 🛠️ I’m very pet loving and friendly especially with dogs and cats 🐶🐱And sorry I don’t have a stepladder yet!😞",
+        "skill":"✅ 👷‍♂️ My experience of more than 11 years as an electrician in various fields, such as remodeling apartments in luxury apartments in Manhattan, work in office space or work in large factories, is ready to add my experience to solve any problem related to electricity and not only because I have additional experience in different areas! 🔌💡and sorry I don’t have a stepladder yet❌",
+        "reviews":[
+          {
+            "name": "Mary B.",
+            "rating": 5.0,
+            "service": "ELECTRICAL HELP",
+            "date": "Wed, Nov 22",
+            "comment": "Petr arrived early, was so pleasant and was extremely knowledgeable and efficient."
+          },
+          {
+            "name": "Patrick F.",
+            "rating": 5.0,
+            "service": "ELECTRICAL HELP",
+            "date": "Mon, Nov 20",
+            "comment": "Petr was great! Efficient, courteous, and respectful of my space. And the light fixture looks great!"
+          },
+          {
+            "name": "JUSTIN G.",
+            "rating": 5.0,
+            "service": "ELECTRICAL HELP",
+            "date": "Mon, Nov 20",
+            "comment": "Petr was great to work with. Very responsive, on time and recommended parts to purchase before our project."
+          },
+          {
+            "name": "Stephanie T.",
+            "rating": 5.0,
+            "service": "ELECTRICAL HELP",
+            "date": "Mon, Nov 20",
+            "comment": "Petr was available day-of, communicative, professional, quick, and did a great job installing/replacing all light fixtures. I’ll definitely hire him again for any future electrical needs!"
+          },
+          {
+            "name": "Amber B.",
+            "rating": 5.0,
+            "service": "ELECTRICAL HELP",
+            "date": "Sun, Nov 19",
+            "comment": "..."
+          }
+        ]
+        
       },
       {
         "id": 8,
@@ -78,7 +357,47 @@
         "location": "City H",
         "availability": "Weekdays",
         "rating": 4.5,
-        "hourlyRate": 30
+        "hourlyRate": 30,
+        "about":"Hi, I'm [Teacher's Name]. I create engaging learning experiences to spark curiosity and growth. With [X years] of teaching, I prioritize a supportive classroom where every student thrives academically and personally. Let's embark on a learning journey together!",
+        "skill":"Hi, I'm [Teacher's Name]. I create engaging learning experiences to spark curiosity and growth. With [X years] of teaching, I prioritize a supportive classroom where every student thrives academically and personally. Let's embark on a learning journey together!",
+        "reviews":[
+          {
+            "name": "John S.",
+            "rating": 4.5,
+            "service": "Education",
+            "date": "Mon, Nov 22",
+            "comment": "The tutoring sessions were very helpful. Clear explanations and great support!"
+          },
+          {
+            "name": "Emily L.",
+            "rating": 5.0,
+            "service": "Education",
+            "date": "Thu, Nov 18",
+            "comment": "Tutoring with Emma was fantastic. She helped me understand complex topics easily."
+          },
+          {
+            "name": "Michael R.",
+            "rating": 4.8,
+            "service": "Education",
+            "date": "Wed, Nov 17",
+            "comment": "The learning materials provided were excellent. The instructor was knowledgeable and engaging."
+          },
+          {
+            "name": "Sophie M.",
+            "rating": 4.9,
+            "service": "Education",
+            "date": "Mon, Nov 15",
+            "comment": "Great online courses! The platform is user-friendly and the content is well-structured."
+          },
+          {
+            "name": "Alex K.",
+            "rating": 5.0,
+            "service": "Education",
+            "date": "Sat, Nov 13",
+            "comment": "The study groups were beneficial. Helped me prepare effectively for my exams."
+          }
+        ]
+        
       },
       {
         "id": 10,
@@ -88,7 +407,47 @@
         "location": "City J",
         "availability": "Weekends",
         "rating": 4.6,
-        "hourlyRate": 40
+        "hourlyRate": 40,
+        "about":"Welcome to our culinary world! At [Cooking Service Name], we're passionate about creating flavorful experiences. Our aim is to inspire and empower individuals through the art of cooking. With a focus on clear instructions, hands-on guidance, and a dash of creativity, we're here to make cooking enjoyable and accessible to everyone. Join us as we embark on a flavorful journey together!",
+        "skill":"Welcome to [Cooking Service Name], where culinary creativity meets expertise! Our team boasts versatile skills encompassing recipe creation, diverse cooking techniques, menu planning, ingredient mastery, efficient kitchen management, and a rich background in teaching. With a passion for making cooking accessible and enjoyable, we're dedicated to sharing our culinary journey with you. Join us for flavorful experiences and hands-on learning in the world of cooking!",
+        "reviews":[
+          {
+            "name": "Sarah D.",
+            "rating": 4.7,
+            "service": "Cooking",
+            "date": "Mon, Nov 22",
+            "comment": "The cooking classes were fantastic! Clear instructions and great guidance made the recipes easy to follow!"
+          },
+          {
+            "name": "Michael G.",
+            "rating": 5.0,
+            "service": "Cooking",
+            "date": "Thu, Nov 18",
+            "comment": "Cooking with Chef Marco was a delight! His expertise made even complex dishes manageable."
+          },
+          {
+            "name": "Rachel W.",
+            "rating": 4.9,
+            "service": "Cooking",
+            "date": "Wed, Nov 17",
+            "comment": "The cooking demonstrations were top-notch. Clear, informative, and the chef was highly knowledgeable."
+          },
+          {
+            "name": "David S.",
+            "rating": 4.8,
+            "service": "Cooking",
+            "date": "Mon, Nov 15",
+            "comment": "The online cooking courses were fantastic! Easy-to-follow recipes and engaging content."
+          },
+          {
+            "name": "Olivia P.",
+            "rating": 5.0,
+            "service": "Cooking",
+            "date": "Sat, Nov 13",
+            "comment": "Participating in cooking workshops was a game-changer! Helped me enhance my culinary skills effectively."
+          }
+        ]
+        
       }
     ]
   }
