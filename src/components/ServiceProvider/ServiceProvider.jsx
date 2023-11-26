@@ -11,7 +11,7 @@ const ServiceProvider = () => {
         {serviceProviders.map((provider) => (
           <div key={provider.id} className="w-[97%] md:w-[330px] lg:w-[330px] xl:w-[330px] flex justify-center items-start gap-7 flex-col h-auto rounded-b-xl bg-[#eaf9ff58] shadow-md cursor-pointer">
             <div className="w-full h-auto">
-              <img src={provider.img} alt="jh" className="w-[100%] md:w-[100%] lg:w-[330px] xl:w-[330px] h-[300px] md:h-[200px] lg:h-[200px] xl:h-[200px] " />
+              <img src={provider.img} alt="jh" className="w-[100%] md:w-[100%] lg:w-[330px] xl:w-[330px] h-[280px] md:h-[200px] lg:h-[200px] xl:h-[200px] " />
             </div>
             <div className="px-3">
                 <h1 className="font-bold" style={{WebkitTextStroke:".3px #0d7a5f"}}>{provider.name}</h1>
