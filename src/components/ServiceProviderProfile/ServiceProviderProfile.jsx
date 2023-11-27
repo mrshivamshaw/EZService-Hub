@@ -19,7 +19,7 @@ const ServiceProviderProfile = () => {
   console.log(servicer);
 
   return (
-    <div className="max-w-[100vw] h-[100vh] ">
+    <div className="w-[100vw] h-[100vh] overflow-x-hidden">
       <NavBar />
       <div className="w-[93%] md:w-[93%] lg:w-[80%] xl:w-[80%] mx-auto py-12 flex flex-col gap-10">
         <div className="flex flex-col md:flex-col lg:flex-row xl:flex-row justify-between items-start md:items-start lg:items-center xl:items-center ">
@@ -49,11 +49,11 @@ const ServiceProviderProfile = () => {
                 </div>
               </div>
               <div className="flex justify-start items-center gap-3 text-lg font-semibold">
-                <div className="flex justify-start items-start gap-3">
+                <div className="flex justify-start items-center gap-3">
                   <FaStar className="text-yellow-300 " />
                   <span className="-ml-2 ">{servicer.rating}</span>
                 </div>
-                <span className="w-full text-start">{"(291 reviews)"}</span>
+                <span className="w-full text-start text-sm text-black/50">{"(291 reviews)"}</span>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const ServiceProviderProfile = () => {
               me
             </span>
           </h1>
-          <p className="text-base font-normal opacity-90">{servicer.about}</p>
+          <p className="text-base font-normal ">{servicer.about}</p>
         </div>
         <div className="flex flex-col items-start justify-start gap-1">
           <h1
@@ -94,7 +94,7 @@ const ServiceProviderProfile = () => {
               Experenice
             </span>
           </h1>
-          <p className="text-base font-normal opacity-90">{servicer.skill}</p>
+          <p className="text-base font-normal ">{servicer.skill}</p>
         </div>
         <div className="flex flex-col gap-9  justify-start items-start">
           <h1

@@ -32,7 +32,9 @@ const NavBar = () => {
                         </div>
                     </li>
                     <li>
-                        <button className='font-semibold hidden md:hidden lg:block xl:block text-[17px] border border-[#0d7a5f] text-[#0d7a5f] px-8 rounded-2xl py-1'>Become a Tasker</button>
+                        <Link to='/become-a-tasker'>
+                            <button className='font-semibold hidden md:hidden lg:block xl:block text-[17px] border border-[#0d7a5f] hover:bg-[#0d7a5f] hover:text-white transition-all duration-300 text-[#0d7a5f] px-8 rounded-2xl py-1'>Become a Tasker</button>
+                        </Link>
                     </li>
                 </ul>
             </div>
