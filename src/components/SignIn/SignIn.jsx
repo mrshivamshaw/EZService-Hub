@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../../assets/Taskrabbit_Same_Day_Handyman,_Moving_Mounting_Services/bgImage.jpg";
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   const backgroundStyle = {
@@ -18,12 +19,14 @@ const SignIn = () => {
         <form>
 
             <div className="bg-white flex flex-col justify-center items-center px-4 md:px-4 lg:px-16 xl:px-16 py-10 font-semibold rounded-3xl gap-3 w-screen md:w-screen lg:w-auto xl:w-auto h-screen md:h-screen lg:h-auto xl:h-auto">
-                <h1
-                className="text-5xl font-bold w-full text-center"
-                style={{ WebkitTextStroke: ".9px #0d7a5f" }}
-                >
-                EZService hub
-                </h1>
+              <Link to='/'>
+                  <h1
+                  className="text-5xl font-bold w-full text-center"
+                  style={{ WebkitTextStroke: ".9px #0d7a5f" }}
+                  >
+                  EZService Hub
+                  </h1>
+              </Link>
 
                 <input
                 type="text"

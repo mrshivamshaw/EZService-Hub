@@ -4,19 +4,22 @@ import { FaTimes } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import landing from '../../assets/becomeAtasker/hero_landing-fdeb7ef8f1a4361ec76f75d007d79546.png'
+import MidSectionAbout from './MidSectionAbout';
+import MidCards from './midCards';
+import GettingStarted from './GettingStarted';
+import FeedBack from './FeedBack';
+import LastSection from './LastSection';
 const BecomeATasker = () => {
     const [navActive,setNavActive] = useState(false)
 
   return (
-    <div className=' w-[100vw]  bg-white overflow-hidden'>
-        <div className='w-[95%] border-b-2 md:w-[95%] lg:w-full xl:w-full h-[10vh] flex justify-between items-center mx-auto px-0 md:px-0 lg:px-[10vw] xl:px-[10vw] '>
-            <div className='flex gap-2 justify-center items-center'>
-                {!navActive && <FaBars className='font-semibold text-xl block md:block lg:hidden xl:hidden' onClick={()=>setNavActive(prev =>!prev)}/>}
-                {navActive && <FaTimes className='font-semibold text-xl block md:block lg:hidden xl:hidden' onClick={()=>setNavActive(prev =>!prev)}/> }
+    <div className=' max-w-[100vw]  bg-white overflow-x-hidden'>
+        <div className='w-full border-b-2 flex justify-start items-center h-[10vh] '>
+                
                 <Link to='/'>
-                    <h1 className='font-semibold text-2xl md:text-2xl lg:text-4xl xl:text-4xl' style={{WebkitTextStroke:".3px #0d7a5f"}}>EZService Hub</h1>
+                    <h1 className='font-semibold text-start text-2xl md:text-2xl lg:text-4xl xl:text-4xl ml-[10vw]' style={{WebkitTextStroke:".3px #0d7a5f"}}>EZService Hub</h1>
                 </Link>
-            </div>
+           
         </div>
         <div className='w-[95%] md:w-[95%] lg:w-[80%] xl:w-[80%]  mx-auto mt-[6vh] '>
             <div className='w-full flex flex-col md:flex-col lg:flex-row xl:flex-row justify-center md:justify-center lg:justify-between xl:justify-between items-center md:items-center lg:items-start xl:items-start gap-6 '>
@@ -37,7 +40,7 @@ const BecomeATasker = () => {
                             <input type="text" placeholder='Help Moving' id='area' className='w-full text-lg py-2 px-3 rounded-lg font-normal border-[2px]'/>
                         </div>
                         <div className=' w-full'>
-                            <span className='w-full text-start text-5xl font-bold'>$45
+                            <span className='w-full text-start text-5xl font-bold' style={{WebkitTextStroke:".3px #309847"}}>$45
                             <span className='w-full text-start text-xl font-normal ml-1'>per hour<AiOutlineQuestionCircle className='inline ml-1'/></span></span>
                         </div>
                         <button type='submit' className='w-full text-center bg-[#309847] py-2 rounded-3xl text-lg text-white border-[1px] hover:scale-x-95 transition-all duration-200 hover:bg-white hover:border-[#309847] hover:text-[#309847] border-black'>Get starter</button>
@@ -51,6 +54,11 @@ const BecomeATasker = () => {
                 </div>
             </div>
         </div>
+        <MidSectionAbout/>
+        <MidCards/>
+        <GettingStarted/>
+        <FeedBack/>
+        <LastSection/>
     </div>
   )
 }

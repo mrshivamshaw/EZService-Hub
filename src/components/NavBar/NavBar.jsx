@@ -17,7 +17,7 @@ const NavBar = () => {
             </div>
             <div>
                 <ul className='flex justify-center items-center gap-2 md:gap-2 lg:gap-11 xl:gap-11 ' >
-                    <li>
+                    <li className='hidden md:hidden lg:block xl:block'>
                         <button className='font-medium text-lg md:text-lg lg:text-[17px] xl:text-[17px] '>Services</button>
                     </li>
                     <li className='hidden md:hidden lg:block xl:block'>
@@ -33,7 +33,7 @@ const NavBar = () => {
                     </li>
                     <li>
                         <Link to='/become-a-tasker'>
-                            <button className='font-semibold hidden md:hidden lg:block xl:block text-[17px] border border-[#0d7a5f] hover:bg-[#0d7a5f] hover:text-white transition-all duration-300 text-[#0d7a5f] px-8 rounded-2xl py-1'>Become a Tasker</button>
+                            <button className='font-semibold  text-sm md:text-sm lg:text-[17px] xl:text-[17px] border border-[#0d7a5f] hover:bg-[#0d7a5f] hover:text-white transition-all duration-300 text-[#0d7a5f] px-3 md:px-3 lg:px-8 xl:px-8 rounded-2xl py-1 md:py-1 lg:py-2 xl:py-2'>Become a Tasker</button>
                         </Link>
                     </li>
                 </ul>
