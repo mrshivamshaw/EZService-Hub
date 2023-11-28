@@ -17,9 +17,11 @@ const NavBar = () => {
             </div>
             <div>
                 <ul className='flex justify-center items-center gap-2 md:gap-2 lg:gap-11 xl:gap-11 ' >
-                    <li className='hidden md:hidden lg:block xl:block'>
-                        <button className='font-medium text-lg md:text-lg lg:text-[17px] xl:text-[17px] '>Services</button>
-                    </li>
+                    <Link to='/services'>
+                        <li className='hidden md:hidden lg:block xl:block'>
+                            <button className='font-medium text-lg md:text-lg lg:text-[17px] xl:text-[17px] '>Services</button>
+                        </li>
+                    </Link>
                     <li className='hidden md:hidden lg:block xl:block'>
                         <div  className='font-medium text-[17px]'>
                             <Link to='/signin' >

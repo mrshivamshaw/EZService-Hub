@@ -1,0 +1,268 @@
+{
+  "services": [
+    {
+      "heading": "Featured Tasks",
+      "description": "Let Taskers help tackle your to-do list.",
+      "tasks": [
+        "Furniture Assembly",
+        "TV Mounting",
+        "Home Repairs",
+        "Help Moving",
+        "Heavy Lifting",
+        "Home Cleaning",
+        "Spring Cleaning",
+        "Personal Assistant",
+        "Hang Pictures",
+        "Yard Work Services",
+        "Wait in Line",
+        "Closet Organization Service"
+      ]
+    },
+    {
+      "heading": "Featured Tasks",
+      "description": "Let Taskers help tackle your to-do list.",
+      "tasks": [
+        "Handyman",
+        "Hire a Tasker for help around the house",
+        "Home Repairs",
+        "Furniture Assembly",
+        "TV Mounting",
+        "Ceiling Fan Installation",
+        "Smart Home Installation",
+        "Heavy Lifting",
+        "Install Air Conditioner",
+        "Painting",
+        "Plumbing",
+        "Shelf Mounting",
+        "Home Maintenance",
+        "Hanging Curtains & Installing Blinds",
+        "Drywall Repair Service",
+        "Baby Proofing",
+        "Yard Work Services",
+        "Light Installation",
+        "Electrical Help",
+        "Carpentry Services",
+        "Hang Pictures",
+        "General Mounting",
+        "Cabinet Installation",
+        "Wallpapering Service",
+        "Fence Installation & Repair Services",
+        "Deck Restoration Services",
+        "Doorbell Installation",
+        "Home Theater Installing"
+      ]
+    },
+    {
+      "heading": "Moving Services",
+      "description": "From the heavy lifting to unpacking and organizing, make your move with Taskrabbit!",
+      "tasks": [
+        "Help Moving",
+        "Packing Services & Help",
+        "Unpacking Services",
+        "Heavy Lifting",
+        "Local Movers",
+        "Junk Pickup",
+        "Furniture Movers",
+        "One Item Movers",
+        "Storage Unit Moving",
+        "Couch Removal",
+        "Mattress Pick-Up & Removal",
+        "Furniture Removal",
+        "Pool Table Movers",
+        "Appliance Removal",
+        "Heavy Furniture Moving",
+        "Rearrange Furniture",
+        "Full Service Help Moving",
+        "In-Home Furniture Movers"
+      ]
+    },
+    {
+      "heading": "Furniture Assembly",
+      "description": "Furniture Assembly",
+      "tasks": [
+        "Furniture Assembly",
+        "Patio Furniture Assembly",
+        "Desk Assembly",
+        "Dresser Assembly",
+        "Bed Assembly",
+        "Bookshelf Assembly",
+        "Couch Assembly",
+        "Chair Assembly",
+        "Wardrobe Assembly",
+        "Table Assembly",
+        "Disassemble furniture",
+        "IKEA MALM Assembly",
+        "IKEA Kallax Assembly"
+      ]
+    },
+    {
+      "heading": "Mounting & Installation",
+      "description": "Wall Mounting",
+      "tasks": [
+        "Wall Mounting",
+        "TV Mounting",
+        "Shelf Mounting",
+        "Ceiling Fan Installation",
+        "Hanging Curtains & Installing Blinds",
+        "Hang Pictures",
+        "General Mounting",
+        "Hang Christmas Lights"
+      ]
+    },
+    {
+      "heading": "Cleaning",
+      "description": "Taskers will make your home sparkle!",
+      "tasks": [
+        "House Cleaning Services",
+        "Deep Cleaning",
+        "Disinfecting Services",
+        "Move In Cleaning",
+        "Move Out Cleaning",
+        "Vacation Rental Cleaning",
+        "Carpet Cleaning Service",
+        "Garage Cleaning",
+        "One Time Cleaning Services",
+        "Car Washing",
+        "Laundry Help",
+        "Pressure Washing",
+        "Spring Cleaning"
+      ]
+    },
+    {
+      "heading": "Shopping + Delivery",
+      "description": "Get anything from groceries to furniture",
+      "tasks": [
+        "Delivery Service",
+        "Grocery Shopping & Delivery",
+        "Running Your Errands",
+        "Christmas Tree Delivery",
+        "Wait in Line",
+        "Deliver Big Piece of Furniture",
+        "Drop Off Donations",
+        "Contactless Delivery",
+        "Pet Food Delivery",
+        "Baby Food Delivery",
+        "Return Items",
+        "Wait for Delivery",
+        "Shipping",
+        "Breakfast Delivery",
+        "Coffee Delivery"
+      ]
+    },
+    {
+      "heading": "Yardwork Services",
+      "description": "Hire a Tasker to help with yardwork & landscaping!",
+      "tasks": [
+        "Gardening Services",
+        "Weed Removal",
+        "Lawn Care Services",
+        "Lawn Mowing Services",
+        "Landscaping Services",
+        "Gutter Cleaning",
+        "Tree Trimming Service",
+        "Vacation Plant Watering",
+        "Patio Cleaning",
+        "Hot Tub Cleaning",
+        "Fence Installation & Repair Services",
+        "Deck Restoration Services",
+        "Patio Furniture Assembly",
+        "Fence Staining",
+        "Mulching Services",
+        "Lawn Fertilizer Service",
+        "Hedge Trimming Service",
+        "Outdoor Party Setup",
+        "Urban Gardening Service",
+        "Leaf Raking & Removal",
+        "Produce Gardening",
+        "Hose Installation",
+        "Shed Maintenance",
+        "Pressure Washing"
+      ]
+    },
+    {
+      "heading": "Holidays",
+      "description": "Holiday Help",
+      "tasks": [
+        "Gift Wrapping Services",
+        "Hang Christmas Lights",
+        "Christmas Tree Delivery",
+        "Holiday Decorating",
+        "Party Cleaning",
+        "Holiday Tree Decorators",
+        "Toy Assembly Service",
+        "Wait in Line",
+        "Christmas Tree Removal"
+      ]
+    },
+    {
+      "heading": "Winter Tasks",
+      "description": "Get help with winter tasks",
+      "tasks": [
+        "Snow Removal",
+        "Sidewalk Salting",
+        "Window Winterization",
+        "Residential Snow Removal",
+        "Christmas Tree Removal",
+        "AC Winterization",
+        "Winter Yardwork",
+        "Pipe Insulation",
+        "Storm Door Installation",
+        "Winter Deck Maintenance",
+        "Water Heater Maintenance",
+        "Wait in Line"
+      ]
+    },
+    {
+      "heading": "Personal Assistant",
+      "description": "Hire a Tasker to be your personal assistant! Get help on an hourly or ongoing basis.",
+      "tasks": [
+        "Personal Assistant",
+        "Running Your Errands",
+        "Wait in Line",
+        "Organization",
+        "Organize Home",
+        "Closet Organization Service",
+        "Interior Design Service",
+        "Virtual Assistant",
+        "Dog Walking"
+      ]
+    },
+    {
+      "heading": "Baby Prep",
+      "description": "Set up the nursery, childproof your home, and more.",
+      "tasks": [
+        "Baby Proofing",
+        "Baby Food Delivery",
+        "Organize a Room",
+        "Painting",
+        "Toy Assembly Service",
+        "Smart Home Installation",
+        "Delivery",
+        "Shopping",
+        "General Cleaning"
+      ]
+    },
+    {
+      "heading": "Virtual & Online Tasks",
+      "description": "Virtual assistance, organization, research, & more",
+      "tasks": [
+        "Virtual Assistant",
+        "Organization",
+        "Data Entry",
+        "Computer Help"
+      ]
+    },
+    {
+      "heading": "Parties + Events",
+      "description": "We'll help make your party great",
+      "tasks": [
+        "Bartending",
+        "Help Cooking & Serving Food",
+        "Shop For & Install Decorations",
+        "Event Help & Wait Staff",
+        "Event Decorating",
+        "Event Staffing"
+      ]
+    }
+  ]
+}

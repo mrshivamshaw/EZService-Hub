@@ -28,11 +28,11 @@ const MidCards = () => {
         <div className='w-full flex flex-col md:flex-col lg:flex-row xl:flex-row items-start justify-start my-[10vh] gap-5'>
             <img src={drilling} alt="drill" className='w-full md:w-full lg:w-[65%] xl:w-[65%]' />
             <div className='w-full md:w-full lg:w-[35%] xl:w-[35%] flex flex-col justify-start items-start pt-4 gap-7'>
-                <h1 className='text-3xl font-bold' style={{WebkitTextStroke:".3px #309847"}}>What is EZService Hub?</h1>
+                <h1 className='text-3xl font-bold' style={{WebkitTextStroke:".3px #40864f"}}>What is EZService Hub?</h1>
                 <p className='text-lg font-[400]'>EZService Hub connects busy people in need of help with trusted local Taskers who can lend a hand with everything from home repairs to errands. As a Tasker, you can get paid to do what you love, when and where you want — all while saving the day for someone in your city.</p>
             </div>
         </div>
-        <div className='flex justify-start md:justify-start lg:justify-center xl:justify-center items-center gap-3'><div className='h-1 w-16 bg-[#309847] rounded-lg'></div><div className='w-3 h-3 bg-[#309847] rounded-full'></div><div className='h-1 w-16 bg-[#309847] rounded-lg'></div></div>
+        <div className='flex justify-start md:justify-start lg:justify-center xl:justify-center items-center gap-3'><div className='h-1 w-16 bg-[#40864f] rounded-lg'></div><div className='w-3 h-3 bg-[#40864f] rounded-full'></div><div className='h-1 w-16 bg-[#40864f] rounded-lg'></div></div>
 
     </div>
   )
