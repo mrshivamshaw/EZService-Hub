@@ -5,12 +5,12 @@ const HomeCard = ({ category, title, p1, p2, bg }) => {
     <div
       className={
         category === title
-          ? "block w-[100%] rounded-2xl"
+          ? "block w-[100%] rounded-2xl transition-all duration-500"
           : "hidden"
       }
       >
         <div className="relative">
-          <div className="lg:absolute xl:absolute static md:static left-36 shadow-none md:shadow-none lg:shadow-lg xl:shadow-lg top-24 bg-white w-full md:w-full lg:w-[340px] xl:w-[340px] h-auto md:h-auto lg:h-[360px] xl:h-[360px] flex flex-col justify-center items-start gap-9 px-3 md:px-9 lg:px-9 xl:px-9 rounded-xl mb-9 ">
+          <div className="z-20 lg:absolute xl:absolute static md:static left-36 shadow-none md:shadow-none lg:shadow-lg xl:shadow-lg top-24 bg-white w-full md:w-full lg:w-[340px] xl:w-[340px] h-auto md:h-auto lg:h-[360px] xl:h-[360px] flex flex-col justify-center items-start gap-9 px-3 md:px-9 lg:px-9 xl:px-9 rounded-xl mb-9 ">
             <p className="text-3xl font-semibold">{title}</p>
             <div className="flex justify-start items-start gap-3">
               <TiInputChecked className="text-[30px] w-[10%]" />
