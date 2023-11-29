@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import serviceProviderData from "../../data/serviceProvider.json";
 import { GoArrowRight } from "react-icons/go";
 import midShape from "../../assets/Taskrabbit_Same_Day_Handyman,_Moving_Mounting_Services/mid_right_shape_first.bfe4482f.svg";
@@ -19,7 +20,15 @@ const ServiceProvider = () => {
       <div className="flex flex-wrap justify-center items-center  gap-x-12 gap-y-8 w-[95%] md:w-[95%] xl:w-[80%] lg:w-[80%] h-auto mx-auto">
         {serviceProviders.map((provider) => (
           <Link key={provider.id} to={`/service/${provider.serviceType}`}>
-            <div className="w-[97%] md:w-[330px] lg:w-[330px] xl:w-[330px] flex justify-center items-start gap-7 flex-col h-auto rounded-b-xl bg-[#f0faf5] hover:bg-white shadow-md cursor-pointer">
+            <motion.div
+              initial={{ opacity: 0, y: -50 }}
+              whileInView={{
+                opacity: 1,
+                y: 0,
+                transition: { duration: 1, delay: 0.4 },
+              }}
+              className="mx-auto w-[97%] md:w-[330px] lg:w-[330px] xl:w-[330px] flex justify-center items-start gap-7 flex-col h-auto rounded-b-xl bg-[#f0faf5] hover:bg-white shadow-md cursor-pointer"
+            >
               <div className="w-full h-auto">
                 <img
                   src={provider.img}
@@ -67,7 +76,7 @@ const ServiceProvider = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </Link>
         ))}
       </div>

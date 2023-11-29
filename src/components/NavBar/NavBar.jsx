@@ -62,25 +62,33 @@ const NavBar = () => {
             <div className="w-[85vw] flex bg-white p-4">
               <div className="flex flex-col gap-5 justify-start mx-auto w-full">
                 <div className="relative">
-
-                    {navActive && (
+                  {navActive && (
                     <FaTimes
-                        className="font-semibold mt-4 mb-2 ml-[30vw] text-end w-full text-xl block md:block lg:hidden xl:hidden"
-                        onClick={() => setNavActive((prev) => !prev)}
+                      className="font-semibold mt-4 mb-2 ml-[30vw] text-end w-full text-xl block md:block lg:hidden xl:hidden"
+                      onClick={() => setNavActive((prev) => !prev)}
                     />
-                    )}
+                  )}
                 </div>
-                <Link to={'/services'}>
-                    <div className="text-[#386842] border-b-2 border-t-2 w-full text-lg pl-2 pb-5 pt-5 flex justify-start items-center gap-1"><span>services</span> <FaChevronRight className=" text-[.8rem]"/></div>
+                <Link to={"/services"}>
+                  <div className="text-[#386842] border-b-2 border-t-2 w-full text-lg pl-2 pb-5 pt-5 flex justify-start items-center gap-1">
+                    <span>services</span>{" "}
+                    <FaChevronRight className=" text-[.8rem]" />
+                  </div>
                 </Link>
-                <Link to={'/login'}>
-                    <div className="text-[#386842] border-b-2 font-semibold w-full text-xl pl-2 pb-5">Log in</div>
+                <Link to={"/login"}>
+                  <div className="text-[#386842] border-b-2 font-semibold w-full text-xl pl-2 pb-5">
+                    Log in
+                  </div>
                 </Link>
-                <Link to={'/signin'}>
-                    <div className="text-[#386842] border-b-2 font-semibold w-full text-xl pl-2 pb-5">Sign in</div>
+                <Link to={"/signin"}>
+                  <div className="text-[#386842] border-b-2 font-semibold w-full text-xl pl-2 pb-5">
+                    Sign in
+                  </div>
                 </Link>
-                <Link to={'/become-a-tasker'}>
-                    <div className="text-[#386842] border-b-2 font-semibold w-full text-xl pl-2 pb-5">Become a Tasker</div>
+                <Link to={"/become-a-tasker"}>
+                  <div className="text-[#386842] border-b-2 font-semibold w-full text-xl pl-2 pb-5">
+                    Become a Tasker
+                  </div>
                 </Link>
               </div>
             </div>
