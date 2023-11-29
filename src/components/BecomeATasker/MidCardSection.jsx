@@ -4,7 +4,7 @@ import grow from "../../assets/becomeAtasker//grow.png";
 import rates from "../../assets/becomeAtasker/rates.png";
 import drilling from '../../assets/becomeAtasker/group-61-f9c4ed29423ef98b38ccc784ddff3996.png'
 
-const MidCards = () => {
+const MidCardSection = () => {
   return (
     <div className='w-[95%] md:w-[95%] lg:w-[80%] xl:w-[80%] mx-auto '>
         <div className='w-full flex flex-col md:flex-col lg:flex-row xl:flex-row justify-center items-center gap-[3vw]'>
@@ -38,4 +38,4 @@ const MidCards = () => {
   )
 }
 
-export default MidCards
+export default MidCardSection

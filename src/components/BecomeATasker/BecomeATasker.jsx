@@ -9,7 +9,8 @@ import GettingStarted from './GettingStarted';
 import FeedBack from './FeedBack';
 import LastSection from './LastSection';
 import Footer from '../Footer/Footer';
-import MidCards from './midCards';
+import MidCardSection from './MidCardSection';
+
 const BecomeATasker = () => {
     const [navActive,setNavActive] = useState(false)
 
@@ -56,7 +57,7 @@ const BecomeATasker = () => {
             </div>
         </div>
         <MidSectionAbout/>
-       <MidCards/>
+       <MidCardSection/>
         <GettingStarted/>
         <FeedBack/>
         <LastSection/>
