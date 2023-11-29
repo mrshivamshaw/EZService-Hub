@@ -13,7 +13,7 @@ const ServiceCard = ({items,description,image,heading}) => {
                 <h1 className='text-lg font-semibold text-[#386842]'>{heading}</h1>
                 <p className='text-[1rem] text-black/70'>{description}</p>
             </div>
-            {
+             {
                 items.map((item,index )=>(
                     <div key={index} className='text-base text-[#386842] font-[460] cursor-pointer'>{item}</div>
                 ))
