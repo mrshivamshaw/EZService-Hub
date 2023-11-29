@@ -4,7 +4,7 @@ import './services.css'
 
 const ServiceCard = ({items,description,image,heading}) => {
   return (
-    <div className='w-[380px] h-auto main border rounded-md border-slate-300'>
+    <div className='w-full md:w-full lg:w-[380px] xl:w-[380px] h-auto main border rounded-md border-slate-300'>
         <div className='w-full h-[200px]'>
             <img src={image} alt="j" className='w-full rounded-md h-full ' />
         </div>
