@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import landing from '../../assets/becomeAtasker/hero_landing-fdeb7ef8f1a4361ec76f75d007d79546.png'
 import MidSectionAbout from './MidSectionAbout';
-import MidCards from './midCards';
 import GettingStarted from './GettingStarted';
 import FeedBack from './FeedBack';
 import LastSection from './LastSection';
 import Footer from '../Footer/Footer';
+import MidCards from './midCards';
 const BecomeATasker = () => {
     const [navActive,setNavActive] = useState(false)
 
@@ -56,7 +56,7 @@ const BecomeATasker = () => {
             </div>
         </div>
         <MidSectionAbout/>
-        <MidCards/>
+       <MidCards/>
         <GettingStarted/>
         <FeedBack/>
         <LastSection/>
