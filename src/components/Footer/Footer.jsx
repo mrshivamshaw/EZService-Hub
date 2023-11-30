@@ -82,6 +82,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <div className='w-full flex justify-center items-center text-black  font-bold px-4 md:px-4 lg:px-8 xl:px-8 mt-10 -mb-10'>
+            <p className=' border-t-2 w-full text-center py-3 text-lg md:text-lg lg:text-2xl xl:text-2xl'>Made by SHIVAM with ❤️ Love</p>
+        </div>
     </div>
   );
 };
