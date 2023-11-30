@@ -17,7 +17,7 @@ const ServiceProvider = () => {
       >
         Service providers
       </h1>
-      <div className="flex flex-wrap justify-center items-center  gap-x-12 gap-y-8 w-[95%] md:w-[95%] xl:w-[80%] lg:w-[80%] h-auto mx-auto">
+      <div className="flex flex-wrap justify-center items-center  gap-x-12 gap-y-8 w-[95%] md:w-[95%] xl:w-[80%] lg:w-[80%] h-auto mx-auto ">
         {serviceProviders.map((provider) => (
           <Link key={provider.id} to={`/service/${provider.serviceType}`}>
             <motion.div
@@ -63,16 +63,16 @@ const ServiceProvider = () => {
                   Timing :{" "}
                   <span className="font-normal">{provider.availability}</span>{" "}
                 </h1>
-                <div className="flex justify-between">
+                <div className="flex justify-between pb-3">
                   <h1 className="text-sm font-semibold">
                     Hourly rate :{" "}
                     <span className="text-[#386842] text-lg font-bold">
                       ${provider.hourlyRate}
                     </span>
                   </h1>
-                  <div className="text-[#386842] text-sm font-medium flex justify-center place-items-center gap-1">
-                    <div className="text-center">view</div>
-                    <GoArrowRight className="text-center text-xs font-semibold" />
+                  <div className="text-white hover:text-[#386842] bg-[#386842] hover:bg-white border border-[#386842] rounded-3xl text-sm font-medium flex justify-center items-center gap-1 px-3">
+                    <button className=" text-center">view</button>
+                    <GoArrowRight className=" text-xs font-bold" />
                   </div>
                 </div>
               </div>

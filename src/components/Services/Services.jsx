@@ -38,13 +38,13 @@ const Services = () => {
           }}
           className="z-10"
         >
-          <h1 className="z-10 text-4xl font-bold text-white">
+          <h1 className="z-10 text-2xl md:text-2xl lg:text-4xl xl:text-4xl font-bold text-white">
             Your to-do list is on us.
           </h1>
         </motion.div>
       </div>
       <div className="w-[95%] md:w-[95%] lg:w-[80%] xl:w-[80%] mx-auto flex flex-col justify-center items-center my-10 gap-4">
-        <h1 className="z-10 text-2xl font-bold " v>
+        <h1 className="z-10 text-xl md:text-xl lg:text-2xl xl:text-2xl font-bold " v>
           Hire a trusted Tasker presto.
         </h1>
         <div className="flex justify-center items-stretch flex-wrap gap-x-4 gap-y-8">

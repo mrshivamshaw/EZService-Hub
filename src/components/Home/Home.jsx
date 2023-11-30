@@ -100,7 +100,7 @@ const Home = () => {
   return (
     <div className="max-w-[100vw] h-auto relative overflow-hidden overflow-x-hidden">
       <NavBar />
-      <button className=" bg-[#386842] text-white px-4 py-[2.5px] top-[93vh] left-3 rounded-3xl text-2xl fixed z-20">
+      <button className=" text-white hover:text-[#386842] bg-[#386842] hover:bg-white border border-[#386842] px-4 py-[2.5px] top-[93vh] left-3 rounded-3xl text-2xl fixed z-20">
         Help ?
       </button>
       <div className="absolute right-0 hidden md:hidden lg:block xl:block">
