@@ -5,10 +5,11 @@ import { IoSearchOutline } from "react-icons/io5";
 import { VscTools } from "react-icons/vsc";
 import { GiDrill } from "react-icons/gi";
 import { CiDeliveryTruck } from "react-icons/ci";
+import { GoQuestion } from "react-icons/go";
 import { LiaBroomSolid } from "react-icons/lia";
 import { GiFruitTree } from "react-icons/gi";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
-import { MdOutlineFormatPaint } from "react-icons/md";
+import { MdCircle, MdOutlineFormatPaint, MdOutlineQuestionMark, MdQuestionMark } from "react-icons/md";
 import { LiaFireSolid } from "react-icons/lia";
 import topRight from "../../assets/Taskrabbit_Same_Day_Handyman,_Moving_Mounting_Services/top_right_shape.46afcf8f.svg";
 import topleft from "../../assets/Taskrabbit_Same_Day_Handyman,_Moving_Mounting_Services/top_left_shape.a6553437.svg";
@@ -100,8 +101,8 @@ const Home = () => {
   return (
     <div className="max-w-[100vw] h-auto relative overflow-hidden overflow-x-hidden">
       <NavBar />
-      <button className=" text-white hover:text-[#386842] bg-[#386842] hover:bg-white border border-[#386842] px-4 py-[2.5px] top-[93vh] left-3 rounded-3xl text-2xl fixed z-20">
-        Help ?
+      <button className="flex justify-center items-center gap-2 font-bold text-white hover:text-[#386842] bg-[#386842] hover:bg-white border border-[#386842] px-4 py-2 top-[93vh] left-3 rounded-3xl text-2xl fixed z-20">
+         <span><GoQuestion/></span><span className="text-base ">Help</span>
       </button>
       <div className="absolute right-0 hidden md:hidden lg:block xl:block">
         <img src={topRight} alt="topright" />

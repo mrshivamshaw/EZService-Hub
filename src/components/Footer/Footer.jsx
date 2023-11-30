@@ -11,28 +11,28 @@ import img2 from "../../assets/Taskrabbit_Same_Day_Handyman,_Moving_Mounting_Ser
 
 const Footer = () => {
   return (
-    <div className="w-[100vw] h-auto bg-slate-400 z-10 py-8 overflow-x-hidden">
+    <div className="w-[100vw] h-auto bg-slate-400 z-10 py-8 overflow-hidden">
       <div className="w-[93%] md:w-[95%] lg:w-[80%] xl:w-[80%] mx-auto flex flex-col justify-start gap-6">
         <div className="flex flex-col md:flex-col lg:flex-row xl:flex-row justify-start items-start md:items-start lg:items-center xl:items-center gap-2 md:gap-2 lg:gap-6 xl:gap-6 text-lg md:text-lg lg:text-2xl xl:text-2xl ">
           <p className="text-black/50">Follow us! We're friendly:</p>
           <div className="flex">
-            <span className="flex justify-center items-center gap-6 text-white cursor-pointer">
+            <span className="flex justify-center items-center gap-4 md:gap-4 lg:gap-4 xl:gap-4 text-white cursor-pointer">
               <FaTiktok />
               <span className="mr-6">|</span>
             </span>
-            <span className="flex justify-center items-center gap-6 text-white cursor-pointer">
+            <span className="flex justify-center items-center gap-4 md:gap-4 lg:gap-6 xl:gap-6 text-white cursor-pointer">
               <FaInstagram />
               <span className="mr-6">|</span>
             </span>
-            <span className="flex justify-center items-center gap-6 text-white cursor-pointer">
+            <span className="flex justify-center items-center gap-4 md:gap-4 lg:gap-6 xl:gap-6 text-white cursor-pointer">
               <FaFacebook />
               <span className="mr-6">|</span>
             </span>
-            <span className="flex justify-center items-center gap-6 text-white cursor-pointer">
+            <span className="flex justify-center items-center gap-4 md:gap-4 lg:gap-6 xl:gap-6 text-white cursor-pointer">
               <FaTwitter />
               <span className="mr-6">|</span>{" "}
             </span>
-            <span className="flex justify-center items-center gap-6 text-white cursor-pointer">
+            <span className="flex justify-center items-center gap-4 md:gap-4 lg:gap-6 xl:gap-6 text-white cursor-pointer">
               <FaLinkedin />
             </span>
           </div>
