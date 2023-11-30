@@ -101,8 +101,8 @@ const Home = () => {
   return (
     <div className="max-w-[100vw] h-auto relative overflow-hidden overflow-x-hidden">
       <NavBar />
-      <button className="flex justify-center items-center gap-2 font-bold text-white hover:text-[#386842] bg-[#386842] hover:bg-white border border-[#386842] px-4 py-2 top-[93vh] left-3 rounded-3xl text-2xl fixed z-20">
-         <span><GoQuestion/></span><span className="text-base ">Help</span>
+      <button className="flex justify-center items-center gap-2 font-bold text-white hover:text-[#386842] bg-[#386842] hover:bg-white border border-[#386842] px-2 md:px-2 lg:px-4 xl:px-4 py-2 top-[90vh] md:top-[90vh] lg:top-[93vh] xl:top-[93vh] left-3 rounded-3xl text-2xl fixed z-20">
+         <span><GoQuestion/></span><span className="text-base hidden md:hidden lg:block xl:block">Help</span>
       </button>
       <div className="absolute right-0 hidden md:hidden lg:block xl:block">
         <img src={topRight} alt="topright" />
