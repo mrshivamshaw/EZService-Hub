@@ -12,7 +12,7 @@ const LastSection = () => {
         alt="footerImage"
         className="absolute bottom-1 z-0 w-full h-full hidden md:hidden lg:block xl:block"
       />
-      <div className="z-10 w-[95%] py-20 md:w-[95%] lg:w-[80%] relative xl:w-[80%] mx-auto flex flex-col justify-center items-start md:items-start lg:items-center xl:items-center gap-5">
+      <div className="z-10 w-[95%] py-20 md:w-[95%] lg:w-[80%] h-full relative xl:w-[80%] mx-auto flex flex-col justify-center items-start md:items-start lg:items-center xl:items-center gap-5">
         <motion.h1
           initial={{ opacity: 0.2, scale: 1.3 }}
           whileInView={{
