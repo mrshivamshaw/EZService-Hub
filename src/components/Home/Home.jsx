@@ -159,7 +159,7 @@ const Home = () => {
                 }
               >
                 {service.icon}
-                <span className="text-[2vh] font-semibold">
+                <span className="text-[2vh] text-center font-semibold">
                   {service.service}
                 </span>
               </div>
