@@ -27,7 +27,7 @@ const ServiceProvider = () => {
                 y: 0,
                 transition: { duration: 1, delay: 0.4 },
               }}
-              className="mx-auto w-[97%] md:w-[330px] lg:w-[330px] xl:w-[330px] flex justify-center items-start gap-7 flex-col h-auto rounded-b-xl bg-[#f0faf5] hover:bg-white shadow-md cursor-pointer"
+              className="mx-auto w-[368px] md:w-[330px] lg:w-[330px] xl:w-[330px] flex justify-center items-start gap-7 flex-col h-auto rounded-b-xl bg-[#f0faf5] hover:bg-white shadow-md cursor-pointer"
             >
               <div className="w-full h-auto">
                 <img
